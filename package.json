@@ -1,0 +1,28 @@
+{
+  "name": "typescript5.7.2-defect",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/project/index.ts"
+    }
+  },
+  "imports": {
+    "#project": "./src/project/project-index.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
